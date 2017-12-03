@@ -1,0 +1,26 @@
+{
+  "name": "zhaoshang",
+  "description": "zhaoshang",
+  "main": "",
+  "authors": [
+    "Reyona <nokoru_ryohei_00@163.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "zhaoshang"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.5.9",
+    "bootstrap": "^3.3.7"
+  }
+}
