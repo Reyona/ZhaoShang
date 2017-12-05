@@ -13,6 +13,6 @@ new Vue({
         }
     },
     data: {
-        selected: '2'
+        selected: '1'
     },
 });
