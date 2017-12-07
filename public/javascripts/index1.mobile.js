@@ -13,6 +13,12 @@ new Vue({
         }
     },
     data: {
-        selected: '1'
+        selected: '1',
+        productionDetailBanner: './images/1.png',
+        productionDetailReason: './images/2.png',
+        productionDetailReasonIcon1: './images/3.png',
+        productionDetailReasonIcon2: './images/4.png',
+        productionDetailReasonIcon3: './images/5.png',
+        productionDetailReasonIcon4: './images/6.png',
     },
 });

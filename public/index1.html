@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./stylesheets/reset.css">
-    <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 320px)" href="https://unpkg.com/mint-ui/lib/style.css">
-<!--    <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 320px)" href="./stylesheets/414wide_portrait_screen.css">-->
+    <link rel="stylesheet" media="screen and (min-width: 320px)" href="https://unpkg.com/mint-ui/lib/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px)" href="./stylesheets/414wide_portrait_screen.css">
     <title>Zhao Shang</title>
 </head>
 <body>
@@ -21,7 +21,29 @@
         <!-- tab-container -->
         <mt-tab-container v-model="selected">
             <mt-tab-container-item id="1">
-                <mt-cell v-for="n in 20" :title="'内容 ' + n" />
+                <div class="production-detail-banner">
+                    <img v-bind:src="productionDetailBanner">
+                </div>
+                <div class="production-detail-reason">
+                    <img v-bind:src="productionDetailReason">
+                </div>
+                <div class="production-detail-reason-row">
+                    <div class="production-detail-reason-row-item">
+                        <img v-bind:src="productionDetailReasonIcon1">
+                    </div>
+                    <div class="production-detail-reason-row-item">
+                        <img v-bind:src="productionDetailReasonIcon2">
+                    </div>
+                </div>
+                <div class="production-detail-reason-row">
+                    <div class="production-detail-reason-row-item">
+                        <img v-bind:src="productionDetailReasonIcon3">
+                    </div>
+                    <div class="production-detail-reason-row-item">
+                        <img v-bind:src="productionDetailReasonIcon4">
+                    </div>
+                </div>
+                <!--<mt-cell v-model="productionDetailPics" v-for="n in productionDetailPics.length" :title="'内容 ' + n" />-->
             </mt-tab-container-item>
             <mt-tab-container-item id="2">
                 <mt-cell v-for="n in 4" :title="'测试 ' + n" />
@@ -46,5 +68,4 @@
 <script type="text/javascript" src="./lib/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/mint-ui/lib/index.js"></script>
 <script type="text/javascript" src="./javascripts/index1.mobile.js"></script>
-<link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 320px)" href="./stylesheets/414wide_portrait_screen.css">
 </html>
