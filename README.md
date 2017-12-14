@@ -21,3 +21,7 @@ add footer button click event.
 2017/12/7<br/>
 update the style of production detail page.
 </p>
+<p>
+2017/12/14<br/>
+update the style of production detail page.
+</p>

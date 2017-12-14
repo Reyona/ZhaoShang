@@ -20,5 +20,7 @@ new Vue({
         productionDetailReasonIcon2: './images/4.png',
         productionDetailReasonIcon3: './images/5.png',
         productionDetailReasonIcon4: './images/6.png',
+        productionDetailSituation: './images/7.png',
+        productionDetailSituationPic1: './images/8.png'
     },
 });

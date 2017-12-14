@@ -20,6 +20,8 @@
 
         <!-- tab-container -->
         <mt-tab-container v-model="selected">
+
+            <!--page 1-->
             <mt-tab-container-item id="1">
                 <div class="production-detail-banner">
                     <img v-bind:src="productionDetailBanner">
@@ -30,24 +32,47 @@
                 <div class="production-detail-reason-row">
                     <div class="production-detail-reason-row-item">
                         <img v-bind:src="productionDetailReasonIcon1">
+                        <p class="reason-title">保障齐</p>
+                        <p>50种轻症、100种重疾</p>
+                        <p>全面呵护</p>
                     </div>
                     <div class="production-detail-reason-row-item">
                         <img v-bind:src="productionDetailReasonIcon2">
+                        <p class="reason-title">保障优</p>
+                        <p>保费低廉</p>
+                        <p>性价比高</p>
                     </div>
                 </div>
                 <div class="production-detail-reason-row">
                     <div class="production-detail-reason-row-item">
                         <img v-bind:src="productionDetailReasonIcon3">
+                        <p class="reason-title">保终身</p>
+                        <p>投保范围广，交费灵活</p>
+                        <p>保障呵护一生</p>
                     </div>
                     <div class="production-detail-reason-row-item">
                         <img v-bind:src="productionDetailReasonIcon4">
+                        <p class="reason-title">享豁免</p>
+                        <p>首次轻症豁免保费</p>
+                        <p>保障不受影响</p>
                     </div>
                 </div>
+                <div class="production-detail-situation">
+                    <img v-bind:src="productionDetailSituation" alt="">
+                </div>
+                <div class="production-detail-situation-title">
+                    <div class="item-icon"></div>重疾发病率已<span class="highlight">高达72.18%！！</span>
+                </div>
+                <img class="production-detail-situation-pic" v-bind:src="productionDetailSituationPic1">
                 <!--<mt-cell v-model="productionDetailPics" v-for="n in productionDetailPics.length" :title="'内容 ' + n" />-->
             </mt-tab-container-item>
+
+            <!--page 2-->
             <mt-tab-container-item id="2">
                 <mt-cell v-for="n in 4" :title="'测试 ' + n" />
             </mt-tab-container-item>
+
+            <!--page 3-->
             <mt-tab-container-item id="3">
                 <mt-cell v-for="n in 6" :title="'选项 ' + n" />
             </mt-tab-container-item>
