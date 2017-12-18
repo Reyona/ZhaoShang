@@ -98,7 +98,8 @@ footer {
 .production-detail-situation-title {
     font-weight: bolder;
     font-size: .9rem;
-    margin: 1rem 0.9rem;
+    margin: 1rem .9rem;
+    clear: both;
 }
 .production-detail-situation-title .item-icon {
     display: inline-block;
@@ -114,4 +115,32 @@ footer {
 .production-detail-situation-pic {
     width: 85%;
     float: right;
+    margin: 1rem auto;
+}
+.production-detail-choose {
+    text-align: center;
+}
+.production-detail-choose img{
+    width: 70%
+}
+.production-detail-choose-item {
+    padding-left: .9rem;
+}
+.production-detail-choose-item > span {
+    font-weight: bolder;
+    font-size: .9rem;
+    line-height: 2.5rem;
+}
+.production-detail-choose-item .range {
+    height: 1.5rem;
+    width: 90%;
+    background-color: brown;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.production-detail-choose-item .range > div {
+    height: 1.5rem;
+    width: 40%;
+    background-color: sandybrown;
+    border-radius: 5px 0 0 5px;
 }

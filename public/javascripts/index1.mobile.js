@@ -21,6 +21,9 @@ new Vue({
         productionDetailReasonIcon3: './images/5.png',
         productionDetailReasonIcon4: './images/6.png',
         productionDetailSituation: './images/7.png',
-        productionDetailSituationPic1: './images/8.png'
+        productionDetailSituationPic1: './images/8.png',
+        productionDetailSituationPic2: './images/9.png',
+        productionDetailSituationPic3: './images/10.png',
+        productionDetailChoose: './images/11.png'
     },
 });

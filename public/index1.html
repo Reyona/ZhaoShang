@@ -26,6 +26,7 @@
                 <div class="production-detail-banner">
                     <img v-bind:src="productionDetailBanner">
                 </div>
+
                 <div class="production-detail-reason">
                     <img v-bind:src="productionDetailReason">
                 </div>
@@ -57,13 +58,64 @@
                         <p>保障不受影响</p>
                     </div>
                 </div>
+
                 <div class="production-detail-situation">
-                    <img v-bind:src="productionDetailSituation" alt="">
+                    <img v-bind:src="productionDetailSituation">
                 </div>
                 <div class="production-detail-situation-title">
                     <div class="item-icon"></div>重疾发病率已<span class="highlight">高达72.18%！！</span>
                 </div>
                 <img class="production-detail-situation-pic" v-bind:src="productionDetailSituationPic1">
+                <div class="production-detail-situation-title">
+                    <div class="item-icon"></div>随着医学发展，<span class="highlight">重疾治愈率也越来越高！</span>
+                </div>
+                <img class="production-detail-situation-pic" v-bind:src="productionDetailSituationPic2">
+                <div class="production-detail-situation-title">
+                    <div class="item-icon"></div>一笔巨额医疗费<span class="highlight">却会拖垮整个家庭！</span>
+                </div>
+                <img class="production-detail-situation-pic" v-bind:src="productionDetailSituationPic3">
+
+                <div class="production-detail-choose">
+                    <img v-bind:src="productionDetailChoose">
+                </div>
+                <div class="production-detail-choose-item">
+                    <span class="highlight">1.保障全面：150种疾病</span>
+                    <div class="range">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="production-detail-choose-item">
+                    <span class="highlight">2.人性化</span>赔付
+                    <div>
+                        患轻症最高可赔付<span class="highlight">3</span>次，且不影响重症保障。
+                    </div>
+                </div>
+                <div class="production-detail-choose-item">
+                    <span class="highlight">3.</span>保障<span class="highlight">终身</span>
+                    <div>
+                        <span class="highlight">28天-65周岁</span>均可投保，保障终身。
+                    </div>
+                </div>
+                <div class="production-detail-choose-item">
+                    <span class="highlight">4.</span>保费<span class="highlight">豁免</span>
+                    <div>
+                        被保险人罹患轻症，剩余保费无需交纳，保障依然存在。
+                    </div>
+                </div>
+                <div class="production-detail-choose-item">
+                    <span class="highlight">5.</span>与社保和医疗保险<span class="highlight">不冲突</span>
+                    <div>
+                        无需发票，一经确诊立即赔付。<br>
+                        且<span class="highlight">与社保不冲突，</span>先拿赔付再看病，<br>
+                        社保和医疗保险还可正常报销！
+                    </div>
+                </div>
+                <div class="production-detail-choose-item">
+                    <span class="highlight">6.</span>股东员工回馈，<span class="highlight">价格低于同类产品30%</span>
+                    <div>
+                        <span class="highlight">10万保额，交至60周岁</span>
+                    </div>
+                </div>
                 <!--<mt-cell v-model="productionDetailPics" v-for="n in productionDetailPics.length" :title="'内容 ' + n" />-->
             </mt-tab-container-item>
 
