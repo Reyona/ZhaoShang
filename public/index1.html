@@ -79,42 +79,76 @@
                     <img v-bind:src="productionDetailChoose">
                 </div>
                 <div class="production-detail-choose-item">
-                    <span class="highlight">1.保障全面：150种疾病</span>
+                    <p><span class="highlight">1.保障全面：150种疾病</span></p>
                     <div class="range">
                         <div></div>
                     </div>
                 </div>
                 <div class="production-detail-choose-item">
-                    <span class="highlight">2.人性化</span>赔付
-                    <div>
+                    <p><span class="highlight">2.人性化</span>赔付</p>
+                    <div class="content">
                         患轻症最高可赔付<span class="highlight">3</span>次，且不影响重症保障。
                     </div>
                 </div>
                 <div class="production-detail-choose-item">
-                    <span class="highlight">3.</span>保障<span class="highlight">终身</span>
-                    <div>
+                    <p><span class="highlight">3.</span>保障<span class="highlight">终身</span></p>
+                    <div class="content">
                         <span class="highlight">28天-65周岁</span>均可投保，保障终身。
                     </div>
                 </div>
                 <div class="production-detail-choose-item">
-                    <span class="highlight">4.</span>保费<span class="highlight">豁免</span>
-                    <div>
+                    <p><span class="highlight">4.</span>保费<span class="highlight">豁免</span></p>
+                    <div class="content">
                         被保险人罹患轻症，剩余保费无需交纳，保障依然存在。
                     </div>
                 </div>
                 <div class="production-detail-choose-item">
-                    <span class="highlight">5.</span>与社保和医疗保险<span class="highlight">不冲突</span>
-                    <div>
+                    <p><span class="highlight">5.</span>与社保和医疗保险<span class="highlight">不冲突</span></p>
+                    <div class="content">
                         无需发票，一经确诊立即赔付。<br>
                         且<span class="highlight">与社保不冲突，</span>先拿赔付再看病，<br>
                         社保和医疗保险还可正常报销！
                     </div>
                 </div>
                 <div class="production-detail-choose-item">
-                    <span class="highlight">6.</span>股东员工回馈，<span class="highlight">价格低于同类产品30%</span>
-                    <div>
-                        <span class="highlight">10万保额，交至60周岁</span>
+                    <p><span class="highlight">6.</span>股东员工回馈，<span class="highlight">价格低于同类产品30%</span></p>
+                    <p><span class="highlight">10万保额，交至60周岁</span></p>
+                    <div class="column-wrapper">
+                        <div class="column-5">
+                            <div class="row-wrapper">
+                                <div class="row-1">
+                                    <div class="column-wrapper">
+                                        <div class="column-1">
+                                            <img v-bind:src="productionDetailChooseIcon1">
+                                        </div>
+                                        <div class="column-7">
+                                            <div class="compare-range baby-range"></div>
+                                            <p class="compare-content">0岁女宝宝每年只需交424元</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-1">
+                                    <div class="row-1">
+                                        <div class="column-wrapper">
+                                            <div class="column-1">
+                                                <img v-bind:src="productionDetailChooseIcon2">
+                                            </div>
+                                            <div class="column-7">
+                                                <div class="compare-range adult-range"></div>
+                                                <p class="compare-content">30岁男性每年只需交1672元</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-3 pic">
+                        </div>
                     </div>
+                </div>
+
+                <div class="production-detail-sample">
+                    <img v-bind:src="productionDetailSample">
                 </div>
                 <!--<mt-cell v-model="productionDetailPics" v-for="n in productionDetailPics.length" :title="'内容 ' + n" />-->
             </mt-tab-container-item>
